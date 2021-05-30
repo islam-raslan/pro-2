@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="part1">
+        <div class="rs">
+          <img
+            src="Vector_Smart_Object_530x150.webp"
+            alt=""
+            style="height: 80%; width: 80%;"
+          />
+        </div>
+        <!------------------------------>
+        <div class="hs">
+          <input type="search" id="in" name="gs" style="width: 80%;" />
+          <button class="bs"><i class="fas fa-search"></i></button>
+        </div>
+        <!------------------------------>
+
+        <div class="ls">
+          <ul>
+            <li class="dropdown">
+              PHP <i class="fas fa-sort-down"></i>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+          </ul>
+          <div class="lll"><i class="fas fa-user-alt"></i>Log in</div>
+          <div class="lll">
+            <i class="fas fa-truck"></i>
+          </div>
+        </div>
+      </div>
+      <!---->
+
+      <!--half head-->
+      <div class="lsh2">
+        <div class="cols1">
+          <ul>
+            <li class="dropdown">
+              products<i class="fas fa-sort-down"></i>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              sale<i class="fas fa-sort-down"></i>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              News<i class="fas fa-sort-down"></i>
+
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              E-lerinng<i class="fas fa-sort-down"></i>
+
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              News<i class="fas fa-sort-down"></i>
+
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              Help
+
+              <div class="dropdown-content"></div>
+            </li>
+          </ul>
+        </div>
+
+        <!--dddddddddddddddddddddddddd-->
+        <div class="cols2">
+          <span style="color: blue; ">Get p100 OFF</span>
+          <span>BLOGE</span>
+          <span
+            >TO ANY SUUPORT? <span style="color: burlywood;">clik here</span>
+          </span>
+        </div>
+      </div>
+    </header>
+    <!--00000000000000000000000000000000000000000000000000000000000000000000-->
+    <div class="slid">
+      <img src="g1.png" alt="" width="100%" height="300px" class="test" />
+      <img src="g2.png" alt="" width="100%" height="300px" class="test" />
+      <img src="g3.png" alt="" width="100%" height="300px" class="test" />
+      <img src="g4.png" alt="" width="100%" height="300px" class="test" />
+      <img src="s2.jpg" alt="" width="100%" height="300px" class="test" />
+      <div class="nandb">
+        <button onclick="plausDiv(-1)">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </button>
+        <button onclick="plausDiv(1)">
+          <i class="far fa-arrow-alt-circle-right"></i>
+        </button>
+      </div>
+    </div>
+    <!-----------------------------slider------------------------------------>
+    <div class="allcardes">
+      <div class="colcard1">
+        <div><img src="c2.png" /><button id="but1">BYU</button></div>
+        <div><img src="c1.png" /><button id="but2">BYU</button></div>
+        <div><img src="c3.png" /><button id="but3">BYU</button></div>
+      </div>
+      <!-------------------------col1 end--------------------------->
+      <div class="colcard2">
+        <div><img src="c4.png" /><button id="but4">BYU</button></div>
+        <div><img src="c5.png" /><button id="but5">BYU</button></div>
+        <div><img src="c6.png" /><button id="but6">BYU</button></div>
+      </div>
+      <!-------------------------col1 end--------------------------->
+      <div class="colcard3">
+        <div><img src="c7.png" /><button id="but7">BYU</button></div>
+        <div><img src="c8.png" /><button id="but8">BYU</button></div>
+        <div><img src="c9.png" /><button id="but9">BYU</button></div>
+      </div>
+    </div>
+    <!--form-->
+    <div id="fater" style="position: relative; display: none;">
+      <div class="form" id="form">
+        <span
+          id="close"
+          style=" cursor: pointer; font-size: 30px; position: absolute; left: 8px;"
+          ><i class="fas fa-times-circle"></i
+        ></span>
+        <h2>INFORMATION</h2>
+
+        <label>name</label>
+
+        <input type="text" placeholder="Enter Your NAME" />
+        <!---------------------------------------------------------------->
+        <label>COD OF CARD</label>
+
+        <input type="text" placeholder="COD" />
+        <!---------------------------------------------------------------->
+
+        <select>
+          <option value="">VESA</option>
+          <option value="">PayPal</option>
+        </select>
+
+        <!---------------------------------------------------------------->
+        <input
+          class="submit"
+          id="submit"
+          type="submit"
+          name="submit "
+          value="submit &rarr;"
+        />
+      </div>
+    </div>
+    <div class="masseg" id="masseg"><i class="fas fa-inbox"></i></div>
+    <script src="j.js"></script>
+  </body>
+</html>

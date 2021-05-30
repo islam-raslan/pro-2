@@ -1,0 +1,468 @@
+body {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bolder;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-variant: small-caps;
+}
+#part1 {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.rsi {
+  height: 50px;
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rsi2 {
+  display: block;
+}
+.name {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+.rs {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*00000000000000000000000000000000000000000hs00000000000000000*/
+.hs {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.bs {
+  background-color: orangered;
+  height: 30px;
+  width: auto;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 2px 2px 4px #000000;
+}
+#in {
+  background: linear-gradient(
+    45deg,
+    rgb(134, 134, 134) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 2px 2px 4px #000000;
+}
+/*00000000000000000000000000000000000000000hs00000000000000000*/
+
+.ls {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.ls li {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.ls .lll {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+/*00000000000000000000000000000000000000000h200000000000000000*/
+.lsh2 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.cols1 {
+  width: 55%;
+}
+.cols1 ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.cols1 li {
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .cols1 .dropdown {
+    font-size: 8px;
+  }
+}
+.cols2 {
+  width: 38%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+@media (max-width: 767px) {
+  .cols2 {
+    font-size: 8px;
+  }
+}
+.cols2 span {
+  height: 20px;
+  width: auto;
+
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  padding: 10px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 10px;
+}
+/*555555555555555555555555555555555555555555555555555555555555*/
+.slid {
+  height: 300px;
+  width: 100%;
+}
+.nandb {
+  height: 30px;
+  width: 100%;
+
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 1;
+  margin-top: -170px;
+}
+.nandb button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: rgb(117, 117, 117);
+}
+/*000000000000cards0000000000000000000000000000000000000*/
+.allcardes {
+  width: 100%;
+  height: 800px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  background-color: darkgray;
+}
+
+.colcard1 {
+  width: 85%;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  animation-name: photo;
+  animation-duration: 0.4s;
+}
+.colcard1 div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 35px 10px 35px 2px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  animation: ani 1s ease-in infinite normal;
+}
+.colcard1 img {
+  height: 80%;
+  width: 100%;
+  border-radius: 35px 0 0 0;
+}
+.colcard1 button {
+  height: 15%;
+  width: 40%;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 224, 224) 0%,
+    rgb(174, 0, 255) 100%
+  );
+  border: none;
+  border-radius: 6px;
+}
+@keyframes ani {
+}
+/*0000000000000000colcard20000000000000000*/
+.colcard2 {
+  width: 85%;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.colcard2 div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 35px 10px 35px 2px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+.colcard2 img {
+  height: 80%;
+  width: 100%;
+  border-radius: 35px 0 0 0;
+}
+.colcard2 button {
+  height: 15%;
+  width: 40%;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 224, 224) 0%,
+    rgb(174, 0, 255) 100%
+  );
+  border: none;
+  border-radius: 6px;
+}
+/*0000000000000000000000000colcard300000000000000000*/
+.colcard3 {
+  width: 85%;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.colcard3 div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 35px 10px 35px 2px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+.colcard3 img {
+  height: 80%;
+  width: 100%;
+  border-radius: 35px 0 0 0;
+}
+.colcard3 button {
+  height: 15%;
+  width: 40%;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 224, 224) 0%,
+    rgb(174, 0, 255) 100%
+  );
+  border: none;
+  border-radius: 6px;
+}
+/*00000000000000000000000000form00000000000000000*/
+.form {
+  background-color: white;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 2;
+  background-image: url(visa2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  animation-name: mive;
+  animation-duration: 1.4s;
+}
+@keyframes mive {
+  from {
+    top: -400px;
+    left: 0px;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+  }
+}
+.form input {
+  border: none;
+  border-bottom: 2px solid rgba(7, 7, 7, 0.281);
+  background: rgb(171, 216, 255);
+
+  height: 20px;
+  width: 90%;
+  color: black;
+}
+
+.form select {
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.171);
+  background: rgb(171, 216, 255);
+  height: 30px;
+  width: 90%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.form label {
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.form .submit {
+  height: 40px;
+  width: 90%;
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 252, 107),
+    rgb(17, 0, 255, 0.3)
+  );
+  border: 1px solid rgb(240, 229, 229);
+  border-radius: 20px;
+  color: white;
+}
+.form h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray;
+}
+::-webkit-scrollbar-thumb {
+  height: 30px;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 224, 224, 0.3) 0%,
+    rgb(65, 0, 95) 100%
+  );
+  border-radius: 10px;
+}
+/*000000000000000000000000000000000hover000000000000000000000000000000*/
+@keyframes photo {
+  10% {
+    background-image: url(s2.jpg);
+  }
+}
+.masseg {
+  top: 85%;
+  left: 93%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 86, 199, 0.767);
+  text-align: center;
+  z-index: 2;
+  border-radius: 50%;
+}
+.masseg:hover {
+  background-color: white;
+  box-shadow: 3px 3px 20px black;
+  color: black;
+  cursor: pointer;
+}
+.masseg i {
+  font-size: 50px;
+}
